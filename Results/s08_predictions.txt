@@ -1,0 +1,165 @@
+{39: {'Valence': True, 'Arousal': True}, 38: {'Valence': False, 'Arousal': False}, 37: {'Valence': False, 'Arousal': False}, 36: {'Valence': False, 'Arousal': False}, 35: {'Valence': False, 'Arousal': True}, 34: {'Valence': True, 'Arousal': True}, 33: {'Valence': False, 'Arousal': False}, 32: {'Valence': False, 'Arousal': True}, 31: {'Valence': True, 'Arousal': True}, 30: {'Valence': False, 'Arousal': True}, 29: {'Valence': False, 'Arousal': False}, 28: {'Valence': False, 'Arousal': False}, 27: {'Valence': False, 'Arousal': True}, 26: {'Valence': False, 'Arousal': False}, 25: {'Valence': False, 'Arousal': False}, 24: {'Valence': True, 'Arousal': False}, 23: {'Valence': False, 'Arousal': True}, 22: {'Valence': False, 'Arousal': False}, 21: {'Valence': True, 'Arousal': False}, 20: {'Valence': False, 'Arousal': True}, 19: {'Valence': True, 'Arousal': False}, 18: {'Valence': False, 'Arousal': False}, 17: {'Valence': True, 'Arousal': False}, 16: {'Valence': False, 'Arousal': True}, 15: {'Valence': True, 'Arousal': False}, 14: {'Valence': True, 'Arousal': True}, 13: {'Valence': True, 'Arousal': False}, 12: {'Valence': False, 'Arousal': True}, 11: {'Valence': True, 'Arousal': True}, 10: {'Valence': True, 'Arousal': True}, 9: {'Valence': True, 'Arousal': False}, 8: {'Valence': True, 'Arousal': True}, 7: {'Valence': True, 'Arousal': True}, 6: {'Valence': True, 'Arousal': True}, 5: {'Valence': False, 'Arousal': False}, 4: {'Valence': False, 'Arousal': True}, 3: {'Valence': False, 'Arousal': True}, 2: {'Valence': True, 'Arousal': True}, 1: {'Valence': True, 'Arousal': True}, 0: {'Valence': True, 'Arousal': True}}
+
+Valence correct predictions: 19/40 --> 47.5%
+Arousal correct predictions: 22/40 --> 55%
+
+Video used as test set: 39
+Valence prediction: True        Label: 3.13      Predicted: Low
+Arousal prediction: True        Label: 5.03      Predicted: High
+
+Video used as test set: 38
+Valence prediction: False       Label: 5.05       Predicted: Low
+Arousal prediction: False       Label: 3.46       Predicted: High
+
+Video used as test set: 37
+Valence prediction: False       Label: 4.72       Predicted: High
+Arousal prediction: False       Label: 4.69       Predicted: High
+
+Video used as test set: 36
+Valence prediction: False       Label: 5.06       Predicted: Low
+Arousal prediction: False       Label: 3.31       Predicted: High
+
+Video used as test set: 35
+Valence prediction: False       Label: 1.21       Predicted: High
+Arousal prediction: True        Label: 7.94      Predicted: High
+
+Video used as test set: 34
+Valence prediction: True        Label: 3.62      Predicted: Low
+Arousal prediction: True        Label: 6.67      Predicted: High
+
+Video used as test set: 33
+Valence prediction: False       Label: 5.05       Predicted: Low
+Arousal prediction: False       Label: 6.83       Predicted: Low
+
+Video used as test set: 32
+Valence prediction: False       Label: 4.44       Predicted: High
+Arousal prediction: True        Label: 6.44      Predicted: High
+
+Video used as test set: 31
+Valence prediction: True        Label: 6.33      Predicted: High
+Arousal prediction: True        Label: 8.23      Predicted: High
+
+Video used as test set: 30
+Valence prediction: False       Label: 1.45       Predicted: High
+Arousal prediction: True        Label: 6.6      Predicted: High
+
+Video used as test set: 29
+Valence prediction: False       Label: 1.4       Predicted: High
+Arousal prediction: False       Label: 3.13       Predicted: High
+
+Video used as test set: 28
+Valence prediction: False       Label: 2.78       Predicted: High
+Arousal prediction: False       Label: 2.99       Predicted: High
+
+Video used as test set: 27
+Valence prediction: False       Label: 5.04       Predicted: Low
+Arousal prediction: True        Label: 4.96      Predicted: Low
+
+Video used as test set: 26
+Valence prediction: False       Label: 4.46       Predicted: High
+Arousal prediction: False       Label: 4.59       Predicted: High
+
+Video used as test set: 25
+Valence prediction: False       Label: 4.99       Predicted: High
+Arousal prediction: False       Label: 4.99       Predicted: High
+
+Video used as test set: 24
+Valence prediction: True        Label: 3.72      Predicted: Low
+Arousal prediction: False       Label: 3.9       Predicted: High
+
+Video used as test set: 23
+Valence prediction: False       Label: 4.15       Predicted: High
+Arousal prediction: True        Label: 4.56      Predicted: Low
+
+Video used as test set: 22
+Valence prediction: False       Label: 3.59       Predicted: High
+Arousal prediction: False       Label: 3.68       Predicted: High
+
+Video used as test set: 21
+Valence prediction: True        Label: 4.23      Predicted: Low
+Arousal prediction: False       Label: 5.79       Predicted: Low
+
+Video used as test set: 20
+Valence prediction: False       Label: 4.68       Predicted: High
+Arousal prediction: True        Label: 6.41      Predicted: High
+
+Video used as test set: 19
+Valence prediction: True        Label: 6.74      Predicted: High
+Arousal prediction: False       Label: 4.21       Predicted: High
+
+Video used as test set: 18
+Valence prediction: False       Label: 5.04       Predicted: Low
+Arousal prediction: False       Label: 6.28       Predicted: Low
+
+Video used as test set: 17
+Valence prediction: True        Label: 7.21      Predicted: High
+Arousal prediction: False       Label: 4.03       Predicted: High
+
+Video used as test set: 16
+Valence prediction: False       Label: 6.67       Predicted: Low
+Arousal prediction: True        Label: 4.77      Predicted: Low
+
+Video used as test set: 15
+Valence prediction: True        Label: 4.21      Predicted: Low
+Arousal prediction: False       Label: 5.06       Predicted: Low
+
+Video used as test set: 14
+Valence prediction: True        Label: 8.33      Predicted: High
+Arousal prediction: True        Label: 5.04      Predicted: High
+
+Video used as test set: 13
+Valence prediction: True        Label: 6.88      Predicted: High
+Arousal prediction: False       Label: 4.97       Predicted: High
+
+Video used as test set: 12
+Valence prediction: False       Label: 7.9       Predicted: Low
+Arousal prediction: True        Label: 5.09      Predicted: High
+
+Video used as test set: 11
+Valence prediction: True        Label: 8.47      Predicted: High
+Arousal prediction: True        Label: 6.54      Predicted: High
+
+Video used as test set: 10
+Valence prediction: True        Label: 8.41      Predicted: High
+Arousal prediction: True        Label: 5.0      Predicted: High
+
+Video used as test set: 9
+Valence prediction: True        Label: 4.97      Predicted: Low
+Arousal prediction: False       Label: 3.6       Predicted: High
+
+Video used as test set: 8
+Valence prediction: True        Label: 8.78      Predicted: High
+Arousal prediction: True        Label: 7.24      Predicted: High
+
+Video used as test set: 7
+Valence prediction: True        Label: 8.82      Predicted: High
+Arousal prediction: True        Label: 6.4      Predicted: High
+
+Video used as test set: 6
+Valence prediction: True        Label: 5.04      Predicted: High
+Arousal prediction: True        Label: 5.04      Predicted: High
+
+Video used as test set: 5
+Valence prediction: False       Label: 7.4       Predicted: Low
+Arousal prediction: False       Label: 7.26       Predicted: Low
+
+Video used as test set: 4
+Valence prediction: False       Label: 4.41       Predicted: High
+Arousal prediction: True        Label: 7.72      Predicted: High
+
+Video used as test set: 3
+Valence prediction: False       Label: 6.82       Predicted: Low
+Arousal prediction: True        Label: 8.23      Predicted: High
+
+Video used as test set: 2
+Valence prediction: True        Label: 8.15      Predicted: High
+Arousal prediction: True        Label: 6.96      Predicted: High
+
+Video used as test set: 1
+Valence prediction: True        Label: 5.04      Predicted: High
+Arousal prediction: True        Label: 6.51      Predicted: High
+
+Video used as test set: 0
+Valence prediction: True        Label: 7.6      Predicted: High
+Arousal prediction: True        Label: 6.78      Predicted: High
+
