@@ -317,7 +317,7 @@ class Main:
     files = []
 
     # Files da analizzare e predire
-    for n in range(8, 33):
+    for n in range(1, 33):
         s = ''
         if n < 10:
             s += '0'

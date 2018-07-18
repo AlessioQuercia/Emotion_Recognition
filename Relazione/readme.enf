@@ -1,0 +1,145 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This is the readme file for the endfloat package v2.4i
+
+This readme was modified on October 2, 1997 but without
+updated endfloat itself, instead to fix errors in this file
+and in endfloat.ins
+
+It was again modified on March 31, 2006, by Frank Küster
+<frank@kuesterei.ch> to indicate the license clarification (see below). 
+
+Endfloat is a LaTeX package.  Versions 2.1 and above require
+LaTeX2e.
+
+Accompanying files should be:
+
+	readme.txt (or readme.endfloat)	This file
+	endfloat.dtx			Docstrip archive  (essential)
+	endfloat.ins			(La)TeX batch file (if you
+					    don't know what it is
+					    then you DO need it)
+        endfloat.asc			PGP separate signature for
+					    endfloat.dtx (to check
+					    authenticity)
+
+============================================================
+Overview:
+  the package places figures and tables at the end of the document,
+  as often requested by journals for non-camera ready submission.
+
+========================================================
+Installation:
+
+Run
+
+  latex endfloat.ins
+
+This will produce three files, endfloat.sty, endfloat.drv and efxmpl.cfg .
+You can run LaTeX on endfloat.drv for the documentation.
+  
+You should copy the file endfloat.sty to where you keep
+your (La)TeX inputs.  You should read the documentation to find out
+more about the example configuration file, efxmpl.cfg.
+
+To produce the documentation, run LaTeX on endfloat.drv (or endfloat.dtx)
+a couple of times, and then use the makeindex program (which might be
+called makeindx on your system) to generate the index
+
+ makeindex -g -s gind.ist endfloat
+
+Then run LaTeX (at least) two more times to get the index in the table
+of contents.
+
+=========================================================
+Major changes in version 2.4 since 2.3:
+  Configuration file (with example of getting sidewaystable to work),
+  Many new hooks for more user control.  Internal changes.
+
+Major changes in version 2.3 and 2.2 since 2.1:
+  Documentation and many internal changes.
+  Added options for suppressing "Tables" and "Figures" section heads, for
+  switching order of tables and figures.  Use of package options
+  generally.
+
+=================================================
+Maintainer:  Jeff Goldberg (J.Goldberg@Cranfield.ac.uk)
+Original author: James Darrell McCauley
+
+Obtaining endfloat:  The necessary files are kept on the Comprehensive
+TeX Archive Network (CTAN).  Current CTAN sites are ftp.tex.ac.uk,
+ftp.shsu.edu, and ftp.dante.de.  They are also mirrored at other locations.
+Once on CTAN, type the command "quote site index endfloat" to
+find where endfloat lives.  It is probably in
+macros/latex/contrib/supported/endfloat .
+Get the whole directory.
+
+Experimental versions of the package may also be available at
+ftp://ftp.cranfield.ac.uk/public/cc/cc047/TeX/sources .  Note that
+the experimental versions may have internal inconsistencies, may
+fail to work altogether, and most certainly will have incorrect
+documentation.
+
+
+=================================================
+License and copying:
+    endfloat for LaTeX
+    Copyright (C) 1992 Darrel McCauley
+    Copyright (C) 1994-1997 Jeffrey Goldberg <jeffrey@goldmark.org>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+This distribution currently comprises the following files:
+
+readme.enf
+COPYING
+endfloat.asc
+endfloat.dtx
+endfloat.ins
+endfloat.pdf
+license.e-mail
+
+The license has been clarified by Jeffrey Goldberg in March 06, as
+indicated in his GPG-signed e-mail included as license.e-mail
+
+=================================================
+No Warranty:
+There is no warranty.  If it doesn't work right, none of the authors
+may be held liable for any direct or indirect damage.  There are
+some known bugs (see the documentation), there may very well be
+some unknown bugs.
+
+===================================================
+This is a PGP signed textfile.  And the file endfloat.asc is a detached
+signature for the file endfloat.dtx.
+
+For information about PGP try
+  http://www.pgp.net/pgp/
+or send mail with subject HELP PGP to
+  galactus@stack.urc.tue.nl
+
+My public key can be found on the key server (pgp-public-keys@keys.pgp.net)
+and via my home page (http://www.cranfield.ac.uk/public/cc/cc047/) and
+by finger (finger goldberg@csli.stanford.edu or goldberg@ny01.nytud.hu)
+
+Naturally, the 2006 version of this file is signed by me, Frank Küster.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.1 (GNU/Linux)
+
+iD8DBQFELQT4+xs9YyJS+hoRAjLXAJ9vUgaspIksmBoi/n5r7LaPUxwpAwCdHc8L
+uCJHAEuw7pnEsThYMvqV9cA=
+=/898
+-----END PGP SIGNATURE-----
