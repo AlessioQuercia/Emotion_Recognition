@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.25)  18 JUL 2018 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.25)  25 JUL 2018 00:07
 entering extended mode
 **./Progetto_INMCA.tex
 (Progetto_INMCA.tex
@@ -916,7 +916,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  26130 strings out of 493328
  646893 string characters out of 3139118
- 849259 words of memory out of 3000000
+ 849257 words of memory out of 3000000
  29162 multiletter control sequences out of 15000+200000
  53840 words of font info for 137 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -939,7 +939,7 @@ les/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9
 rw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
 lr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Progetto_INMCA.pdf (6 pages, 242903 bytes).
+Output written on Progetto_INMCA.pdf (6 pages, 242876 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

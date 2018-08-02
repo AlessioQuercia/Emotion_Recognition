@@ -763,7 +763,7 @@ Given a training set of instance-label pairs ($x_i$, $y_i$), $i= 1, ..., l$ wher
 \end{equation}
 subject to
 \begin{eqnarray}
-y_i(w^T\phi(x_i)+b)\geq 1-\xi_i\xi_i, \\
+y_i(w^T\phi(x_i)+b)\geq 1-\xi_i, \\
 \xi_i \geq 0.
 \end{eqnarray}
 where $\mathcal{C} > 0$ is the penalty parameter of the error term. The training vectors $x_i$ are mapped into a higher (maybe infinite) dimentional space by the function $\phi$. SVM finds a linear separating hyperplane with the maximal margin in this higher dimentional space \cite{hsu2003practical}.
@@ -771,7 +771,7 @@ where $\mathcal{C} > 0$ is the penalty parameter of the error term. The training
 A Support Vector Machine (SVM) is a supervised learning model with an associated learning algorithm that analyze data used for classification and regression analysis. Given a set of training examples, each one marked as belonging to one or the other of two categories, a SVM training algorithm builds a model that assigns new examples to one category or the other, making it a non-probabilistic binary linear classifier.
 A support vector machine constructs a hyperplane or set of hyperplanes	 in a high- or infinite-dimensional space, which can be used for classification, regression, or other tasks like outliers detection.
 
-It often happens that the sets to discriminate are not linearly separable. SVMs can efficiently perform a non-linear classification using the kernel \textit{kernel trick}, implicitly mapping their inputs from finite-dimensional space into higher dimentional features spaces. The kernel trick consists of observing that many machine learning algorithms can be written exclusively in terms of dot products between examples. For example:
+It often happens that the sets to discriminate are not linearly separable. SVMs can efficiently perform a non-linear classification using the \textit{kernel trick}, implicitly mapping their inputs from finite-dimensional space into higher dimentional features spaces. The kernel trick consists of observing that many machine learning algorithms can be written exclusively in terms of dot products between examples. For example:
 \begin{equation}
 w^Tx + b = b + \sum_{i=1}^m {\alpha_ix^Tx^{(i)}}
 \end{equation}
