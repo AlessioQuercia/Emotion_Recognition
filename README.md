@@ -4,7 +4,7 @@
 ## Purpose
 Project related to the Natural Interaction and Models of Affective and Behavioral Computing courses for the Computer Science Master at Università degli Studi di Milano.
 
-This repository is intended to keep trace of the project development, storing both the code and the project report.
+This repository is intended to keep track of the project development, storing both the code and the project report.
 
 ## Overview
 In this project I dealt with emotion recognition from EEG signals using a SVM classifier based on libsvm library, relying on the method described in the article https://www.hindawi.com/journals/bmri/2017/8317357/. 
