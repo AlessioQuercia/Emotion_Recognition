@@ -4,7 +4,7 @@
 This repository is intended to keep track of the project related to the Natural Interaction and Models of Affective and Behavioral Computing courses for the Computer Science Master at Università degli Studi di Milano.
 
 ## Info
-This project concerns emotion recognition from EEG signals dealt with by using a SVM classifier based on libsvm library, relying on the method described in the [article](https://www.hindawi.com/journals/bmri/2017/8317357/). 
+This project concerns emotion recognition from EEG signals dealt with by using a SVM classifier based on libsvm library, relying on the method described in the [article](https://www.hindawi.com/journals/bmri/2017/8317357). 
 
 This method consists in making classification and prediction using features extracted from decomposed EEG signals.
 
@@ -14,6 +14,6 @@ Using cross-validation, it was possible to extimate the model accuracy for a sin
 For more info, read the report in the Links section.
 
 ## Links
-**Article**: https://www.hindawi.com/journals/bmri/2017/8317357/
+**Article**: https://www.hindawi.com/journals/bmri/2017/8317357
 
 **Report**: https://github.com/AlessioQuercia/Emotion_Recognition/blob/master/EmotionRecognition.pdf
